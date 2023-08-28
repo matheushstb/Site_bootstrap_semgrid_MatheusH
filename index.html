@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.hamburgue-removebg-preview.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <title>Tasty Boost</title>
+</head>
+<body>
+    <nav class="navbar col-12 position-fixed bg-dark navbar-expand-lg" data-bs-theme="dark" style="z-index: 999;">
+        <div class="container-fluid col-11">
+          <a class="navbar-brand" href="#">Tasty Boost</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conteudo">Compras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Direitos</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/fast-food1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/fast-food2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/fast-food3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h2 id="produtos" class="text-center">Produtos</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+  <div class="col">
+    <div class="card">
+      <img src="img/fast-food1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Qualidade</h5>
+        <p class="card-text">Nossa loja preza muito pela qualidade e sabor dos nossos produtos no geral, por isso somos uma dos maiores fast foods do mundo!</p>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Saiba mais!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Qualidade</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/fast-food1.png" class="card-img-top" alt="">
+        <p class="card-text">Novinha descendo na 4x4, welcome to the mato, cerveja gelada, piscina e churrasco, welcome to the mato, modão batendo no grave pesadooooo....</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/fast-food2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Compromisso</h5>
+        <p class="card-text">Nossa loja tem um compromisso enorme com nossos clientes de entregar mais do que o esperado para quem confia na qualidade de nossos produtos, por isso, somos uma família!</p>
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Saiba mais!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Compromisso</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/fast-food1.png" class="card-img-top" alt="">
+        <p class="card-text">Novinha descendo na 4x4, welcome to the mato, cerveja gelada, piscina e churrasco, welcome to the mato, modão batendo no grave pesadooooo....</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/fast-food3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Variedade</h5>
+        <p class="card-text">Temos uma grande variedade de produtos em nosso catálogo, desde os doces até os salgados, de forma geral, gostamos muito de tentar agradar a todos e todas!</p>
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Saiba mais!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Variedade</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/fast-food1.png" class="card-img-top" alt="">
+        <p class="card-text">Novinha descendo na 4x4, welcome to the mato, cerveja gelada, piscina e churrasco, welcome to the mato, modão batendo no grave pesadooooo....</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<hr class="col-11 m-auto">
+<div id="conteudo" class="col-11 m-auto">
+  <h2 class="text-center">Compras</h2>
+  <p class="text-center">A Tasty Boost comercializa nossos produtos pelo aplicativo que está disponível em todas as lojas virtuais para dowload, caso queira obter o App, aperte <a href="#">aqui</a> e desfrute do nosso aplicativo!</p>
+</div>
+<hr class="col-11 m-auto"/>
+<br><br>
+<footer id="footer" class="page-footer p-5 col-13 m-auto"
+        style="background-color: #ffba39;">
+  <div class="text-center">
+    <a href="#">@2023 Copyright: Matheus Henrique</a>
+  </div>      
+</footer>
+</body>
+</html>
